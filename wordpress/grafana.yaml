@@ -1,0 +1,9 @@
+datasources:
+  datasources.yaml:
+    apiVersion: 1
+    datasources:
+    - name: Prometheus
+      type: prometheus
+      url:  a638c3e12644747bb9ba7d737b1dd8e1-1989460769.ap-south-1.elb.amazonaws.com
+      access: proxy
+      isDefault: true
